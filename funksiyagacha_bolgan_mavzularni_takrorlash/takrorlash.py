@@ -1004,6 +1004,6 @@ savol = "Musbat son kiriting(dasturni to'xtatish uchun 'exit' deb yozing): "
 # # print(mus_son_top())
 
 # #lambda funksiyada:
-mus_sonlar = list(filter(lambda son: son>0, range(-10, 10)))
-kv = list(map(lambda son: son**2, mus_sonlar))
-print(kv)
+# mus_sonlar = list(filter(lambda son: son>0, range(-10, 10)))
+# kv = list(map(lambda son: son**2, mus_sonlar))
+# print(kv)

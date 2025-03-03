@@ -1007,3 +1007,21 @@ savol = "Musbat son kiriting(dasturni to'xtatish uchun 'exit' deb yozing): "
 # mus_sonlar = list(filter(lambda son: son>0, range(-10, 10)))
 # kv = list(map(lambda son: son**2, mus_sonlar))
 # print(kv)
+
+################################
+
+# son = float(input("Juft son kiriting: "))
+# if son%2!=0:
+#     print("Bu son juft emas.")
+# else:
+#     print("Rahmat!")
+
+yosh = int(input("Yoshingiz nechida?"))
+
+if yosh<=4 or yosh>=60:
+    narh = 'Bepul'
+elif yosh < 18:
+    narh = 10000
+else:
+    narh = 20000
+print(f"Chipta {narh} so'm")

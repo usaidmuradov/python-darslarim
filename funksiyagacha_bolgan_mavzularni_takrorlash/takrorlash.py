@@ -1016,12 +1016,48 @@ savol = "Musbat son kiriting(dasturni to'xtatish uchun 'exit' deb yozing): "
 # else:
 #     print("Rahmat!")
 
-yosh = int(input("Yoshingiz nechida?"))
+# yosh = int(input("Yoshingiz nechida?"))
 
-if yosh<=4 or yosh>=60:
-    narh = 'Bepul'
-elif yosh < 18:
-    narh = 10000
-else:
-    narh = 20000
-print(f"Chipta {narh} so'm")
+# if yosh<=4 or yosh>=60:
+#     narh = 'Bepul'
+# elif yosh < 18:
+#     narh = 10000
+# else:
+#     narh = 20000
+# print(f"Chipta {narh} so'm")
+
+#############################
+
+# yosh = input("Yoshingizni kiriting: ")
+# try :
+#     yosh = int(yosh)
+# except ValueError:
+#     print("Yosh tog\'ri kiritilmadi!")
+# else:
+#     print(f'siz {2025-yosh}-yilda tug\'ilgan ekansiz')
+
+#ZeroDivisionError 
+# x,y = 5,10
+# try:
+#     print( y/(x-5))
+# except ZeroDivisionError:
+#     print('Nolga bolish mumkin emas')
+
+#indexError 
+# mevalar = ['olma', 'xurmo', 'anor']
+# try:
+#     print(mevalar[3])
+# except IndexError:
+#     print(f'Ro\'yxatda {len(mevalar)} ta meva bor xolos')
+
+# KeyError
+user = {
+    'name': 'John',
+    'age': 30,
+    'city': 'New York',
+    'job': 'development'
+}
+try:
+    print(user['job'])
+except KeyError:
+    print('Kalitso\'z topilmadi')
